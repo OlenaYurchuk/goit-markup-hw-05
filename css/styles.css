@@ -658,7 +658,6 @@ button {
 .modal-close:focus {
   background-color: #404bbf;
   border: none;
-  fill: #fff;
 }
 
 .modal-icon {
@@ -718,8 +717,7 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus,
-.form-textarea:focus-within {
+.form-input:focus {
   border-color: #4d5ae5;
 }
 
@@ -752,6 +750,10 @@ button {
   flex-shrink: 0;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-textarea:focus {
+  border-color: #4d5ae5;
 }
 
 .form-textarea::placeholder {
